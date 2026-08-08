@@ -46,7 +46,7 @@ function DashboardMockup() {
 export default function ProductPreviews() {
   return (
     <>
-      <section id="dashboard" aria-labelledby="dashboard-title" className="bg-slate-950 py-20 text-white sm:py-24">
+      <section id="dashboard" aria-labelledby="dashboard-title" className="bg-slate-950 py-12 text-white sm:py-16">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[1.35fr_.65fr] lg:px-8">
           <DashboardMockup />
           <div>
@@ -66,7 +66,7 @@ export default function ProductPreviews() {
         </div>
       </section>
 
-      <section aria-labelledby="store-title" className="overflow-hidden bg-white py-20 sm:py-24">
+      <section aria-labelledby="store-title" className="overflow-hidden bg-white py-12 sm:py-16">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
           <div>
             <p className="font-semibold text-purple-600">Store Preview</p>

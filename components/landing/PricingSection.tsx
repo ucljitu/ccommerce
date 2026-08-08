@@ -5,7 +5,7 @@ import PricingCards from "@/components/pricing/PricingCards";
 
 export default function PricingSection() {
   return (
-    <section id="pricing" aria-labelledby="pricing-title" className="bg-slate-50 py-20 sm:py-24">
+    <section id="pricing" aria-labelledby="pricing-title" className="bg-slate-50 py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto mb-12 max-w-3xl text-center">
           <Badge className="mb-4 border-0 bg-emerald-100 text-emerald-700">Simple Pricing</Badge>

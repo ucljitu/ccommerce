@@ -18,7 +18,7 @@ const textPayments = [
 
 export default function PaymentMethods() {
   return (
-    <section aria-labelledby="payments-title" className="border-y border-slate-100 bg-white py-16">
+    <section aria-labelledby="payments-title" className="border-y border-slate-100 bg-white py-10 sm:py-12">
       <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
         <Badge className="mb-4 border-0 bg-blue-100 text-blue-700">Payments</Badge>
         <h2 id="payments-title" className="text-3xl font-bold text-slate-900 sm:text-4xl">

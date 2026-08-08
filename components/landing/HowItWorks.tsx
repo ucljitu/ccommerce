@@ -9,9 +9,9 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section aria-labelledby="how-title" className="bg-slate-50 py-20 sm:py-24">
+    <section aria-labelledby="how-title" className="bg-slate-50 py-6 sm:py-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto mb-12 max-w-2xl text-center">
+        <div className="mx-auto mb-6 max-w-2xl text-center">
           <Badge className="mb-4 border-0 bg-purple-100 text-purple-700">Simple Setup</Badge>
           <h2 id="how-title" className="text-3xl font-bold text-slate-900 sm:text-4xl">Start Selling in 3 Simple Steps</h2>
         </div>

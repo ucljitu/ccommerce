@@ -12,7 +12,7 @@ const categories = [
 
 export default function BusinessCategories() {
   return (
-    <section aria-labelledby="categories-title" className="bg-white py-20 sm:py-24">
+    <section aria-labelledby="categories-title" className="bg-white py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
         <Badge className="mb-4 border-0 bg-blue-100 text-blue-700">Business Types</Badge>
         <h2 id="categories-title" className="text-3xl font-bold text-slate-900 sm:text-4xl">Built for Different Types of Businesses</h2>

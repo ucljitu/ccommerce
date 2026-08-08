@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function FinalCTA() {
   return (
-    <section aria-labelledby="final-cta-title" className="gradient-primary relative overflow-hidden py-20 sm:py-24">
+    <section aria-labelledby="final-cta-title" className="gradient-primary relative overflow-hidden py-12 sm:py-16">
       <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-white/10" />
       <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
         <h2 id="final-cta-title" className="text-3xl font-bold text-white sm:text-4xl">Ready to Start Selling Online?</h2>

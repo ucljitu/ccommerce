@@ -15,9 +15,9 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section aria-labelledby="faq-title" className="bg-slate-50 py-20 sm:py-24">
+    <section aria-labelledby="faq-title" className="bg-slate-50 py-6 sm:py-8">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-12 text-center">
+        <div className="mb-6 text-center">
           <Badge className="mb-4 border-0 bg-purple-100 text-purple-700">FAQ</Badge>
           <h2 id="faq-title" className="text-3xl font-bold text-slate-900 sm:text-4xl">Frequently Asked Questions</h2>
           <p className="mt-4 text-lg text-slate-600">Need more information? <Link href="/contact" className="font-medium text-blue-600 underline-offset-4 hover:underline">Contact us</Link>.</p>

@@ -14,9 +14,9 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section id="features" aria-labelledby="features-title" className="bg-white py-20 sm:py-24">
+    <section id="features" aria-labelledby="features-title" className="bg-white py-6 sm:py-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto mb-12 max-w-3xl text-center">
+        <div className="mx-auto mb-6 max-w-3xl text-center">
           <Badge className="mb-4 border-0 bg-blue-100 text-blue-700">Everything You Need</Badge>
           <h2 id="features-title" className="text-3xl font-bold text-slate-900 sm:text-4xl">Manage Your Online Business in One Place</h2>
           <p className="mt-4 text-lg text-slate-600">Simple tools to create your store, receive orders and grow your business.</p>
@@ -30,7 +30,7 @@ export default function FeaturesSection() {
             </article>
           ))}
         </div>
-        <div className="mt-10 text-center"><Button asChild size="lg" variant="outline"><Link href="/features">View All Features</Link></Button></div>
+        <div className="mt-6 text-center"><Button asChild size="lg" variant="outline"><Link href="/features">View All Features</Link></Button></div>
       </div>
     </section>
   );

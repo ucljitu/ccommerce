@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
   return (
-    <section className="gradient-hero relative overflow-hidden pb-20 pt-32 sm:pt-36 lg:pb-24">
+    <section className="gradient-hero relative overflow-hidden pb-12 pt-24 sm:pt-28 lg:pb-16">
       <div className="pointer-events-none absolute -right-40 -top-40 h-96 w-96 rounded-full bg-blue-400/10 blur-3xl" />
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
         <div className="text-center lg:text-left">
